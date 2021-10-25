@@ -13,13 +13,25 @@ const Banner = () => {
         interval={5000}
       >
         <div>
-          <img loading='lazy' src='https://links.papareact.com/gi1' alt='' />
+          <img
+            loading='lazy'
+            src='https://links.papareact.com/gi1'
+            alt='carasole image'
+          />
         </div>
         <div>
-          <img loading='lazy' src='https://links.papareact.com/6ff' alt='' />
+          <img
+            loading='lazy'
+            src='https://links.papareact.com/6ff'
+            alt='some custome image'
+          />
         </div>
         <div>
-          <img loading='lazy' src='https://links.papareact.com/7ma' alt='' />
+          <img
+            loading='lazy'
+            src='https://links.papareact.com/7ma'
+            alt='asy hi dall raha hn'
+          />
         </div>
       </Carousel>
     </div>

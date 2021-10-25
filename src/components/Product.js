@@ -19,13 +19,19 @@ const Product = ({ id, title, price, description, category, image }) => {
         {category}
       </p>
 
-      <Image src={image} height={200} width={200} objectFit='contain' />
+      <Image
+        src={image}
+        height={200}
+        width={200}
+        objectFit='contain'
+        alt={description}
+      />
       <h4 className='py-3'>{title}</h4>
-      <div className='flex' key={id}>
+      <div className='flex'>
         {Array(rating)
           .fill()
           .map((_, i) => (
-            <StarIcon className='h-5 text-yellow-500' />
+            <StarIcon className='h-5 text-yellow-500' key={id} />
           ))}
       </div>
       <p className='text-xs my-2 line-clamp-2'> {description} </p>
@@ -36,7 +42,9 @@ const Product = ({ id, title, price, description, category, image }) => {
 
       {hasPrime && (
         <div className='flex items-center space-x-2 -mt-5'>
-          <img
+          <Image
+            width={12}
+            height={24}
             className='w-12'
             src='https://links.papareact.com/fdw'
             alt='has prime'

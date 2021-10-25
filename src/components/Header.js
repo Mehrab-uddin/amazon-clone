@@ -16,6 +16,7 @@ const Header = () => {
         <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
           <Image
             src='https://links.papareact.com/f90'
+            alt='some alt text'
             width={150}
             height={40}
             objectFit='contain'
@@ -38,7 +39,7 @@ const Header = () => {
           </div>
           <div className='link'>
             <p>Returns</p>
-            <p className='font-extrabold md:text-sm'>& Orders</p>
+            <p className='font-extrabold md:text-sm'> & Orders</p>
           </div>
           <div className='relative link flex items-center'>
             <span className='absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-400 rounded-full text-center text-black font-bold'>
@@ -60,9 +61,9 @@ const Header = () => {
         </p>
         <p className='link'>Prime Video</p>
         <p className='link'>Amazon Business</p>
-        <p className='link'>Today's Deals</p>
+        <p className='link'>Today&apos;s Deals</p>
         <p className='hidden lg:inline-flex link'>Electronics</p>
-        <p className='hidden lg:inline-flex link'>Food & Groocery</p>
+        <p className='hidden lg:inline-flex link'>Food &; Groocery</p>
         <p className='hidden lg:inline-flex link'>Prime</p>
         <p className='hidden lg:inline-flex link'>Buy Again</p>
         <p className='hidden lg:inline-flex link'>Shopper Toolkit</p>
