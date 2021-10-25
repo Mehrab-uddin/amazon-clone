@@ -9,7 +9,7 @@ export default function Index({ products }) {
   return (
     <div className='bg-gray-100'>
       <Head>
-        <title>Mehrab Uddin</title>
+        <title>Amazon clone 2.0</title>
       </Head>
       <Header />
       <main className='max-w-screen-xl mx-auto'>
